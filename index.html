@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Thumbnail Generator</h1>
+    <img id="templateImage" src="./images/cheesecake.png">
+
+    <!-- full dimensions w650px h300px image size w293px h186px -->
+    <canvas id="canvas">
+    </canvas>
+
+    <form id="template">
+        <label for="message">Title:</label>
+        <input type="text" name="message" id="message" placeholder="Title Goes Here." maxlength="64"
+            value="Message Goes Here.">
+        <br>
+        <button type="sumbit" id="reload">Reload Image</button>
+    </form>
+
+    <p>
+        <a type="button" id="download-jpg" href="">Download template here</a> or
+        right click the image and "save picture as..."
+    </p>
+
+
+
+    <!-- <script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./app.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>

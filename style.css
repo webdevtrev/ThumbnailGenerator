@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+body{
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+h1{
+    padding: 1em;
+    color: #004e7b;
+    font-family: "Open Sans";
+    font-weight: 800;
+}
+canvas{
+    /* display: none; */
+}
+
+form{
+    margin: 3em auto;
+    max-width: 650px;
+    border: 2px solid #004e7b;
+}
+form label{
+    display: inline-block;
+    margin-right: 1em;
+    width: 30%;
+    text-align: right;
+}
+form input{
+    display: inline-block;
+    margin: 1em auto;
+    width: 50%;
+    max-width: 300px;
+}
+form select{
+    display: inline-block;
+    margin: 1em auto;
+    width: 50%;
+    max-width: 300px;
+}
+#templateImage{
+    border: 2px solid #004e7b;
+}
+#play{
+    display: none;
+}
+#person{
+    display: none;
+}
+button{
+    margin: 1em;
+}
